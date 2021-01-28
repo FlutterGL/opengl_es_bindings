@@ -1,0 +1,19 @@
+name: LibOpenGLES
+description: 'https://www.khronos.org/registry/OpenGL/index_es.php#headers3'
+output: 'lib/src/bindings.dart'
+headers:
+  entry-points:
+    - 'include/gl32.h'
+    - 'include/gl32ext.h'
+# functions:
+#  include:
+#    - 'wgpu_.*'
+# structs:
+#  include:
+#    - 'WGPU.*'
+# enums:
+#  include:
+#    - 'WGPU.*'
+# macros:
+#  include:
+#    - 'WGPU.*'
