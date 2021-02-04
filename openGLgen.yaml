@@ -1,11 +1,14 @@
 name: LibOpenGLES
 description: 'https://www.khronos.org/registry/OpenGL/index_es.php#headers3'
-output: 'lib/src/bindings.dart'
+output: 'lib/src/gles_bindings.dart'
 headers:
   entry-points:
-    - 'include/gl32.h'
-    - 'include/gl32ext.h'
-# functions:
+    - 'c_headers/GLES/**.h'
+functions:
+  exclude: 
+    - '__va_start*'
+    - '__security_init_cookie*'
+    - '__security_check_cookie*'
 #  include:
 #    - 'wgpu_.*'
 # structs:

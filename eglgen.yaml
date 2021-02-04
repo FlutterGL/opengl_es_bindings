@@ -1,0 +1,20 @@
+name: LibEGL
+description: 'https://www.khronos.org/registry/OpenGL/index_es.php#headers3'
+output: 'lib/src/egl_bindings.dart'
+headers:
+  entry-points:
+    - 'c_headers/EGL/**.h'
+    # - 'include/gl32ext.h'
+    # - 'include/gl32ext.h'
+# functions:
+#  include:
+#    - 'wgpu_.*'
+# structs:
+#  include:
+#    - 'WGPU.*'
+# enums:
+#  include:
+#    - 'WGPU.*'
+# macros:
+#  include:
+#    - 'WGPU.*'
