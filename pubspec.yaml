@@ -8,7 +8,7 @@ environment:
   sdk: ">=2.12.0-0 <3.0.0"
 
 dependencies:
-  ffi: ^0.3.0-nullsafety.2
+  ffi: ^0.2.0-nullsafety.1
 
 dev_dependencies:
   ffigen: ^2.0.0-null-safety.1
