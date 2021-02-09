@@ -43,7 +43,7 @@ extern "C" {
 */
 
 // Hacks to help Clang/ffigen parse this file
-#include <EGL/eglplatform.h>
+#include "eglplatform.h"
 
 /* Generated on date 20180517 */
 
