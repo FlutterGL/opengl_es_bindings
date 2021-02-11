@@ -1,8 +1,8 @@
 name: opengl_es_bindings
 description: A new Flutter package project.
-version: 1.0.0
-author:
-homepage:
+version: 1.0.0-pre
+author: Thomas Burkhart
+homepage: https://github.com/FlutterGL/opengl_es_bindings
 
 environment:
   sdk: ">=2.12.0-0 <3.0.0"
